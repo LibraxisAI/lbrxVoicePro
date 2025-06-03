@@ -84,4 +84,32 @@ lbrxVoicePro/
 
 ---
 
+## Credits & Acknowledgments
+
+This project integrates and builds upon several excellent open-source models:
+
+### Speech Recognition
+- **[mlx-community/whisper](https://huggingface.co/mlx-community)** - MLX-optimized Whisper models for ASR
+  - Apache 2.0 License
+  - Optimized for Apple Silicon by the MLX Community
+
+### Text-to-Speech
+- **[senstella/csm-mlx](https://github.com/senstella/csm-mlx)** - CSM-1B Polish TTS model
+  - MIT License
+  - State-of-the-art Polish speech synthesis
+  
+- **[nari-labs/Dia-1.6B](https://huggingface.co/nari-labs/Dia-1.6B)** - Multilingual TTS model
+  - Apache 2.0 License
+  - Supports multiple languages including Polish
+  
+- **[coqui-ai/XTTS-v2](https://github.com/coqui-ai/TTS)** - Multi-lingual TTS model
+  - Mozilla Public License 2.0
+  - Voice cloning capabilities
+
+### Voice Activity Detection
+- **[Silero VAD](https://github.com/snakers4/silero-vad)** - Pre-trained VAD
+  - MIT License
+
+---
+
 Built by LIBRAXIS Team | Optimized for Sesame AI Labs Integration
