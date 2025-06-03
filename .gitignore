@@ -80,3 +80,5 @@ htmlcov/
 tmp/
 temp/
 *.tmp
+PUBLISH.sh
+INTERNAL_ANALYSIS.mdx
