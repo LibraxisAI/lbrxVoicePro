@@ -9,7 +9,7 @@ authors = [{name = "LIBRAXIS Team", email = "team@libraxis.com"}]
 
 dependencies = [
     # Core ML
-    "mlx>=0.24.0",
+    "mlx>=0.26.0",
     "mlx-whisper>=0.4.0",
     "torch>=2.0.0",
     "silero-vad>=5.0",
