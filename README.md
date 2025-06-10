@@ -17,7 +17,7 @@ lbrxVoicePro/
 │   ├── formatter.py     # MOSHI/MIMI format conversion
 │   └── validator.py     # Dataset quality checks
 ├── models/              # Model integrations
-│   ├── csm_mlx/        # CSM-1B Polish TTS
+│   ├── csm_mlx/        # CSM-MLX TTS
 │   ├── whisper_mlx/    # Whisper models
 │   └── rag/            # Universal RAG engine
 ├── api/                 # REST/WebSocket APIs
@@ -47,7 +47,7 @@ lbrxVoicePro/
    - Plug any corpus (technical docs, literature, etc.)
    - ChromaDB vector storage
 
-4. **Polish TTS Integration**
+4. **TTS Integration**
    - CSM-1B model support
    - Real-time synthesis
    - Voice cloning ready
@@ -94,13 +94,13 @@ This project integrates and builds upon several excellent open-source models:
   - Optimized for Apple Silicon by the MLX Community
 
 ### Text-to-Speech
-- **[senstella/csm-mlx](https://github.com/senstella/csm-mlx)** - CSM-1B Polish TTS model
+- **[senstella/csm-mlx](https://github.com/senstella/csm-mlx)** - CSM-1B with native MLX support SoTATTS model
   - MIT License
-  - State-of-the-art Polish speech synthesis
+  - State-of-the-art speech synthesis
   
 - **[nari-labs/Dia-1.6B](https://huggingface.co/nari-labs/Dia-1.6B)** - Multilingual TTS model
   - Apache 2.0 License
-  - Supports multiple languages including Polish
+  - Supports multiple languages including 
   
 - **[coqui-ai/XTTS-v2](https://github.com/coqui-ai/TTS)** - Multi-lingual TTS model
   - Mozilla Public License 2.0
