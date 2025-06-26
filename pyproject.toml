@@ -8,6 +8,7 @@ license = {text = "MIT"}
 authors = [{name = "LIBRAXIS Team", email = "team@libraxis.com"}]
 dependencies = [
     "chromadb>=0.4.0",
+    "edge-tts>=6.1.0",
     "fastapi>=0.115.0",
     "httpx>=0.28.0",
     "mlx>=0.26.0",
@@ -22,6 +23,7 @@ dependencies = [
     "sounddevice>=0.5.0",
     "soundfile>=0.12.0",
     "torch>=2.0.0",
+    "transformers>=4.30.0",
     "uvicorn>=0.32.0",
     "websockets>=14.0",
 ]

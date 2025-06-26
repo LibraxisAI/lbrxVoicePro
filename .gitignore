@@ -81,3 +81,5 @@ temp/
 *.tmp
 PUBLISH.sh
 INTERNAL_ANALYSIS.mdx
+generate_rays_summary.py
+better_audio_response.py
