@@ -4,10 +4,9 @@ from fastapi import FastAPI, WebSocket, UploadFile, File
 from fastapi.responses import JSONResponse, StreamingResponse
 import uvicorn
 from pathlib import Path
-import asyncio
 from typing import Optional
 
-from ..core import VoicePipeline, AudioRecorder
+from ..core import VoicePipeline
 from ..dataset import DatasetCollector
 from ..models.csm_mlx import CSMVoiceSynthesizer
 from ..models.rag import RAGEngine

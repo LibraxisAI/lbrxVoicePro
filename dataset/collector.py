@@ -5,7 +5,6 @@ import asyncio
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Any, List
-import numpy as np
 import soundfile as sf
 
 from ..core import VoicePipeline

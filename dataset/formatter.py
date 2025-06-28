@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List
 import numpy as np
-import torch
 
 
 class MoshiMimiFormatter:

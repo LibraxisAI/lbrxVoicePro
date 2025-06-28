@@ -3,12 +3,9 @@
 Audio recording functionality with real-time processing
 """
 
-import asyncio
-import threading
 import queue
 import time
-from pathlib import Path
-from typing import Optional, Callable, Any
+from typing import Optional, Callable
 import numpy as np
 import sounddevice as sd
 import soundfile as sf

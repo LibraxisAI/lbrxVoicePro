@@ -1,8 +1,6 @@
 """Test core components"""
 
 import pytest
-import numpy as np
-from pathlib import Path
 
 
 def test_imports():
